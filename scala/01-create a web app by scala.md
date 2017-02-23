@@ -1,20 +1,20 @@
-¿´ÁËÒ»Ğ©scalaµÄÓï·¨£¬Ğ´ÁËµã¼òµ¥µÄ½Å±¾ºó£¬´òËã³¢ÊÔÓÃscala¿ª·¢webÓ¦ÓÃ¡£
-ÒòÎªÄ¿Ç°Ö÷ÒªÔÚÓÃspring×öjavaµÄweb¿ª·¢£¬Èç¹û·ÅÆúÏÖÓĞµÄ¼¼Êõ¿ò¼Ü³É±¾Ì«¸ß£¬
-ËùÒÔÄ¿±êÊÇÄÜ¹»¼Ì³ĞspringºÍscala£¬¼ÈÄÜÒÀ¿¿Ö®Ç°µÄ¼¼ÊõÕ»£¬ÓÖ¿ÉÒÔ³¢ÊÔscalaµÄÌØĞÔ¡£
-³¢ÊÔ¿ªÊ¼£º
+çœ‹äº†ä¸€äº›scalaçš„è¯­æ³•ï¼Œå†™äº†ç‚¹ç®€å•çš„è„šæœ¬åï¼Œæ‰“ç®—å°è¯•ç”¨scalaå¼€å‘webåº”ç”¨ã€‚
+å› ä¸ºç›®å‰ä¸»è¦åœ¨ç”¨springåšjavaçš„webå¼€å‘ï¼Œå¦‚æœæ”¾å¼ƒç°æœ‰çš„æŠ€æœ¯æ¡†æ¶æˆæœ¬å¤ªé«˜ï¼Œ
+æ‰€ä»¥ç›®æ ‡æ˜¯èƒ½å¤Ÿç»§æ‰¿springå’Œscalaï¼Œæ—¢èƒ½ä¾é ä¹‹å‰çš„æŠ€æœ¯æ ˆï¼Œåˆå¯ä»¥å°è¯•scalaçš„ç‰¹æ€§ã€‚
+å°è¯•å¼€å§‹ï¼š
 
-#´î½¨ÏîÄ¿¿ò¼Ü
-ÔÚÍøÉÏÕÒÁËÒ»Ğ©scala webÏà¹ØµÄËµÃ÷£¬µ«ÊÇÃ»ÓĞ·ûºÏĞèÇóµÄ£¬ÓĞÌáµ½ÓÃSBT»òÕßscalaµÄÒ»Ğ©¿ò¼Ü£¬Ò²ÓĞËµspring-scalaºÍspring-boot¡£
-spring-scalaµÄ×îĞÂ°æ±¾ÊÇ2013Äê·¢²¼µÄ£¬²»ÖªµÀÊÇ²»ÊÇ»¹ÔÚ¸üĞÂ£¬SBTµÄÀı×Ó»ù±¾ÊÇÖ±½Ó¼Ì³ĞServlet£¬Ã»ÓĞÀûÓÃµ½spring£¬¶øÎÒ×îÖÕµÄÄ¿µÄÊÇÄÜ¹»¼ÌĞøÊ¹ÓÃMaven£¬JenkinsÕâÒ»Ì×£¬ËùÒÔ¾ö¶¨»¹ÊÇ»Ø¹éÀÏ±¾ĞĞ£¬ÏÈ´îÒ»¸ö¼òµ¥µÄjava webÏîÄ¿¡£
+#æ­å»ºé¡¹ç›®æ¡†æ¶
+åœ¨ç½‘ä¸Šæ‰¾äº†ä¸€äº›scala webç›¸å…³çš„è¯´æ˜ï¼Œä½†æ˜¯æ²¡æœ‰ç¬¦åˆéœ€æ±‚çš„ï¼Œæœ‰æåˆ°ç”¨SBTæˆ–è€…scalaçš„ä¸€äº›æ¡†æ¶ï¼Œä¹Ÿæœ‰è¯´spring-scalaå’Œspring-bootã€‚
+spring-scalaçš„æœ€æ–°ç‰ˆæœ¬æ˜¯2013å¹´å‘å¸ƒçš„ï¼Œä¸çŸ¥é“æ˜¯ä¸æ˜¯è¿˜åœ¨æ›´æ–°ï¼ŒSBTçš„ä¾‹å­åŸºæœ¬æ˜¯ç›´æ¥ç»§æ‰¿Servletï¼Œæ²¡æœ‰åˆ©ç”¨åˆ°springï¼Œè€Œæˆ‘æœ€ç»ˆçš„ç›®çš„æ˜¯èƒ½å¤Ÿç»§ç»­ä½¿ç”¨Mavenï¼ŒJenkinsè¿™ä¸€å¥—ï¼Œæ‰€ä»¥å†³å®šè¿˜æ˜¯å›å½’è€æœ¬è¡Œï¼Œå…ˆæ­ä¸€ä¸ªç®€å•çš„java webé¡¹ç›®ã€‚
 
-##´´½¨Java WebÏîÄ¿
-Õı³£´´½¨Java WebÏîÄ¿£¬µ¼ÈëMavenÖ§³Ö£¬µ÷ÕûÄ¿Â¼½á¹¹ºÍpomÎÄ¼ş£¬Ë³ÊÖ½¨ÁËsrc/main/scalaÄ¿Â¼±¸ÓÃ¡£
-![ÏîÄ¿½á¹¹Í¼Æ¬](src)
+##åˆ›å»ºJava Webé¡¹ç›®
+æ­£å¸¸åˆ›å»ºJava Webé¡¹ç›®ï¼Œå¯¼å…¥Mavenæ”¯æŒï¼Œè°ƒæ•´ç›®å½•ç»“æ„å’Œpomæ–‡ä»¶ï¼Œé¡ºæ‰‹å»ºäº†src/main/scalaç›®å½•å¤‡ç”¨ã€‚
+![é¡¹ç›®ç»“æ„å›¾ç‰‡](/img/01-simple_web_app_structure.png)
 
-¼ÓÈëweb.xml£¬log4j.xml£¬spring-web-servlet.xmlÈı¸öÅäÖÃÎÄ¼ş
+åŠ å…¥web.xmlï¼Œlog4j.xmlï¼Œspring-web-servlet.xmlä¸‰ä¸ªé…ç½®æ–‡ä»¶
 
 ###pom.xml
-ĞèÒªÒıÈëscala-maven-pluginºÍscalaÏà¹ØµÄÒÀÀµ£¬scalatraÒÀÀµµÄakka-actor±¨´í£¬µ¥¶ÀÒıÓÃ
+éœ€è¦å¼•å…¥scala-maven-pluginå’Œscalaç›¸å…³çš„ä¾èµ–ï¼Œscalatraä¾èµ–çš„akka-actoræŠ¥é”™ï¼Œå•ç‹¬å¼•ç”¨
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -83,8 +83,8 @@ spring-scalaµÄ×îĞÂ°æ±¾ÊÇ2013Äê·¢²¼µÄ£¬²»ÖªµÀÊÇ²»ÊÇ»¹ÔÚ¸üĞÂ£¬SBTµÄÀı×Ó»ù±¾ÊÇÖ±½Ó¼
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-                    <source>1.8</source> <!-- Ô´´úÂëÊ¹ÓÃµÄ¿ª·¢°æ±¾ -->
-                    <target>1.8</target> <!-- ĞèÒªÉú³ÉµÄÄ¿±êclassÎÄ¼şµÄ±àÒë°æ±¾ -->
+                    <source>1.8</source> <!-- æºä»£ç ä½¿ç”¨çš„å¼€å‘ç‰ˆæœ¬ -->
+                    <target>1.8</target> <!-- éœ€è¦ç”Ÿæˆçš„ç›®æ ‡classæ–‡ä»¶çš„ç¼–è¯‘ç‰ˆæœ¬ -->
                 </configuration>
             </plugin>
             <plugin>
@@ -199,7 +199,7 @@ spring-scalaµÄ×îĞÂ°æ±¾ÊÇ2013Äê·¢²¼µÄ£¬²»ÖªµÀÊÇ²»ÊÇ»¹ÔÚ¸üĞÂ£¬SBTµÄÀı×Ó»ù±¾ÊÇÖ±½Ó¼
 ```
 
 ###web.xml
-Õı³£webÏîÄ¿µÄÅäÖÃ£¬Ö¸¶¨¹ıÂËÆ÷£¬log4j£¬Ê¹ÓÃspringµÄDispatcherServlet
+æ­£å¸¸webé¡¹ç›®çš„é…ç½®ï¼ŒæŒ‡å®šè¿‡æ»¤å™¨ï¼Œlog4jï¼Œä½¿ç”¨springçš„DispatcherServlet
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
@@ -224,7 +224,7 @@ spring-scalaµÄ×îĞÂ°æ±¾ÊÇ2013Äê·¢²¼µÄ£¬²»ÖªµÀÊÇ²»ÊÇ»¹ÔÚ¸üĞÂ£¬SBTµÄÀı×Ó»ù±¾ÊÇÖ±½Ó¼
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
-    <!-- log ÅäÖÃ-->
+    <!-- log é…ç½®-->
     <context-param>
         <param-name>log4jConfigLocation</param-name>
         <param-value>classpath:log4j.xml</param-value>
@@ -295,7 +295,7 @@ spring-scalaµÄ×îĞÂ°æ±¾ÊÇ2013Äê·¢²¼µÄ£¬²»ÖªµÀÊÇ²»ÊÇ»¹ÔÚ¸üĞÂ£¬SBTµÄÀı×Ó»ù±¾ÊÇÖ±½Ó¼
 ```
 
 ###spring-web-servlet.xml
-Ö¸¶¨component-scanµÄÎ»ÖÃ£¬ÕâÀïÔÚÊµÑéÊ±·¢ÏÖ£¬ÎÒÔÚsrc/main/javaºÍsrc/main/scalaÏÂÃæ¶¨ÒåÁËÁ½¸öÍ¬ÃûµÄ°ü£¬ÔËĞĞÊ±¶¼ÄÜ¹»±»springÉ¨Ãèµ½¡£
+æŒ‡å®šcomponent-scançš„ä½ç½®ï¼Œè¿™é‡Œåœ¨å®éªŒæ—¶å‘ç°ï¼Œæˆ‘åœ¨src/main/javaå’Œsrc/main/scalaä¸‹é¢å®šä¹‰äº†ä¸¤ä¸ªåŒåçš„åŒ…ï¼Œè¿è¡Œæ—¶éƒ½èƒ½å¤Ÿè¢«springæ‰«æåˆ°ã€‚
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -312,15 +312,15 @@ spring-scalaµÄ×îĞÂ°æ±¾ÊÇ2013Äê·¢²¼µÄ£¬²»ÖªµÀÊÇ²»ÊÇ»¹ÔÚ¸üĞÂ£¬SBTµÄÀı×Ó»ù±¾ÊÇÖ±½Ó¼
     <mvc:annotation-driven/>
     <mvc:default-servlet-handler/>
 
-    <!-- É¨Ãè -->
+    <!-- æ‰«æ -->
     <context:annotation-config/>
     <context:component-scan base-package="com.derfy"/>
     
 </beans>
 ```
 
-##²âÊÔspring¿ò¼Ü
-ÔÚsrc/main/javaÏÂÃæ´´½¨com.derfy.web.controller°ü£¬´´½¨HelloJavaController.java
+##æµ‹è¯•springæ¡†æ¶
+åœ¨src/main/javaä¸‹é¢åˆ›å»ºcom.derfy.web.controlleråŒ…ï¼Œåˆ›å»ºHelloJavaController.java
 ###HelloJavaController.java
 ```java
 package com.derfy.web.controller;
@@ -340,12 +340,12 @@ public class HelloJavaController {
     }
 }
 ```
-ÅäÖÃtomcat£¬Æô¶¯£¬ä¯ÀÀÆ÷ÊäÈëhttp://localhost:8080/java/hello£¬Êä³ö"hello java"£¬ÏîÄ¿³É¹¦Æô¶¯¡£
+é…ç½®tomcatï¼Œå¯åŠ¨ï¼Œæµè§ˆå™¨è¾“å…¥http://localhost:8080/java/helloï¼Œè¾“å‡º"hello java"ï¼Œé¡¹ç›®æˆåŠŸå¯åŠ¨ã€‚
 
-##ÊµÑéspring¶ÔscalaµÄÖ§³Ö
-ÔÚsrc/main/scalaÏÂÃæ´´½¨com.derfy.web.controller°ü£¬´´½¨HelloScalaController.scala
-¸´ÖÆjava´úÂë¹ıÀ´×Ô¶¯×ª»»Îªscala·ç¸ñ£¬×öÒ»Ğ©ĞŞ¸Ä¡£
-×¢ÒâÕâÀïÖ±½Ó°´javaµÄ·½Ê½ÔÚÀàºÍ·½·¨ÉÏÊ¹ÓÃÁËspringµÄ×¢½â£¬µ«RequestMappingµÄpathĞèÒªÊ¹ÓÃ×Ö·û´®Êı×é¡£
+##å®éªŒspringå¯¹scalaçš„æ”¯æŒ
+åœ¨src/main/scalaä¸‹é¢åˆ›å»ºcom.derfy.web.controlleråŒ…ï¼Œåˆ›å»ºHelloScalaController.scala
+å¤åˆ¶javaä»£ç è¿‡æ¥è‡ªåŠ¨è½¬æ¢ä¸ºscalaé£æ ¼ï¼Œåšä¸€äº›ä¿®æ”¹ã€‚
+æ³¨æ„è¿™é‡Œç›´æ¥æŒ‰javaçš„æ–¹å¼åœ¨ç±»å’Œæ–¹æ³•ä¸Šä½¿ç”¨äº†springçš„æ³¨è§£ï¼Œä½†RequestMappingçš„pathéœ€è¦ä½¿ç”¨å­—ç¬¦ä¸²æ•°ç»„ã€‚
 ###HelloScalaController.scala
 ```scala
 package com.derfy.web.controller
@@ -365,14 +365,14 @@ class HelloScalaController {
 
 }
 ```
-Æô¶¯tomcat£¬ÄÜ¹»Õı³£Æô¶¯£¬Êä³öÈçÏÂÈÕÖ¾£¬ËµÃ÷Á½¸öControllerÀà¶¼±»springÉ¨Ãèµ½²¢¼ÓÔØ¡£
+å¯åŠ¨tomcatï¼Œèƒ½å¤Ÿæ­£å¸¸å¯åŠ¨ï¼Œè¾“å‡ºå¦‚ä¸‹æ—¥å¿—ï¼Œè¯´æ˜ä¸¤ä¸ªControllerç±»éƒ½è¢«springæ‰«æåˆ°å¹¶åŠ è½½ã€‚
 ```
 2017-02-23 17:28:08,474 INFO  [RequestMappingHandlerMapping] Mapped "{[/java/hello]}" onto public java.lang.String com.derfy.web.controller.HelloJavaController.hello()
 2017-02-23 17:28:08,476 INFO  [RequestMappingHandlerMapping] Mapped "{[/scala/hello]}" onto public java.lang.String com.derfy.web.controller.HelloScalaController.hello()
 ```
-ä¯ÀÀÆ÷ÊäÈëhttp://localhost:8080/scala/hello£¬Êä³ö"hello scala"£¬scala·ç¸ñµÄControllerÒ²¿ÉÒÔ³É¹¦ÔËĞĞ¡£
+æµè§ˆå™¨è¾“å…¥http://localhost:8080/scala/helloï¼Œè¾“å‡º"hello scala"ï¼Œscalaé£æ ¼çš„Controllerä¹Ÿå¯ä»¥æˆåŠŸè¿è¡Œã€‚
 
-³¢ÊÔ¼ÓÈë²ÎÊı£¬PathVariable×¢½âÒ²¿ÉÒÔÕı³£Ê¹ÓÃ
+å°è¯•åŠ å…¥å‚æ•°ï¼ŒPathVariableæ³¨è§£ä¹Ÿå¯ä»¥æ­£å¸¸ä½¿ç”¨
 ###HelloScalaController.scala
 ```scala
 package com.derfy.web.controller
